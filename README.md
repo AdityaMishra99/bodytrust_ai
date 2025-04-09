@@ -3,7 +3,7 @@
 </p>
 
 
-# 💪 BodyTrust AI
+# BodyTrust AI
 
 **Earn trust in health like you do in finance – with data.**
 
@@ -11,18 +11,18 @@ BodyTrust AI is a real-time health analytics platform built using Python, Dash, 
 
 ---
 
-## ⚙️ Key Features
+## Key Features
 
-- 🔐 Secure Login & JWT Authentication
-- 📊 BodyTrust Score based on real health metrics
-- 🤖 ML model predicts future scores (RandomForest)
-- 👑 Admin panel: user management + access control
-- 🧠 Clustering with KMeans for tier classification
-- 💻 Dash frontend + FastAPI backend + PostgreSQL DB
+-  Secure Login & JWT Authentication
+-  BodyTrust Score based on real health metrics
+-  ML model predicts future scores (RandomForest)
+-  Admin panel: user management + access control
+-  Clustering with KMeans for tier classification
+-  Dash frontend + FastAPI backend + PostgreSQL DB
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - Python, Plotly Dash
 - FastAPI (JWT-secured)
@@ -33,7 +33,7 @@ BodyTrust AI is a real-time health analytics platform built using Python, Dash, 
 
 ---
 
-## 📂 Run Locally
+## Run Locally
 
 ```bash
 git clone https://github.com/AdityaMishra99/bodytrust_ai.git
