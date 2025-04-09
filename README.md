@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="assets/bodytrust_logo.png" width="300"/>
+</p>
+
+
 # 💪 BodyTrust AI
 
 **Earn trust in health like you do in finance – with data.**
