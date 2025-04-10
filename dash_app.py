@@ -10,7 +10,7 @@
 # 
 # ✅ Recommendation table sorted by ScoreDelta
 
-# In[10]:
+# In[5]:
 
 
 import pandas as pd
@@ -29,6 +29,17 @@ app.title = "BodyTrust AI Dashboard"
 # Layout
 app.layout = html.Div([
     html.H1("💪 BodyTrust AI Dashboard", style={"textAlign": "center"}),
+html.Div([
+    html.Img(
+        src='/assets/bodytrust_logo.png',
+        style={
+            'width': '200px',
+            'display': 'block',
+            'margin': 'auto',
+            'padding-top': '10px'
+        }
+    )
+]),
 
     html.Div([
         html.Label("Filter by Health Tier:"),
@@ -165,7 +176,7 @@ def update_dashboard(selected_tier):
 
 # Run the server
 if __name__ == '__main__':
-    app.run(debug=True, port=8051)
+    app.run(debug=True, port=8053)
 
 
 # In[ ]:
